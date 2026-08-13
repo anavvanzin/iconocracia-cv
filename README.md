@@ -21,6 +21,7 @@ do tempo — atacado pelos dois paradigmas da disciplina: visão clássica e apr
 ```
 data/     freeze do corpus para o semestre (imutável, reprodutível)
 docs/     pitch de apresentação + protocolo técnico / data card
+analysis/ auditorias e resultados derivados, reproduzíveis
 ```
 
 - **Freeze:** `ICONOCRACIA-CV-2026-08-12` — 335 registros, export público do corpus de pesquisa
@@ -29,6 +30,8 @@ docs/     pitch de apresentação + protocolo técnico / data card
 - **Docs:**
   - [Pitch de apresentação e formação de grupo](docs/apresentacao-visao-computacional-2026-2.md)
   - [Protocolo técnico e data card](docs/projeto-disciplina-visao-computacional-2026-2.md)
+- **Análises:**
+  - [Cobertura de codificação por regime no Hugging Face](analysis/huggingface-regime-coverage-2026-08-13/)
 
 ## Roadmap do semestre
 
