@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+<rect width="100%" height="100%" fill="#FAF6EC"/>
+<style>text{font-family:Inter,Avenir,Helvetica,Arial,sans-serif}</style>
+<text x="92" y="100" fill="#B8892B" font-size="22" font-weight="700" letter-spacing="2">ICONOCRACIA · VISÃO COMPUTACIONAL</text>
+<text x="92" y="158" fill="#1C1C1C" font-size="43" font-weight="700">Cobertura de codificação por regime</text>
+<text x="92" y="202" fill="#6B6459" font-size="23">Snapshot público do Hugging Face · 13 ago. 2026</text>
+<text x="92" y="276" fill="#6B1E2E" font-size="52" font-weight="750">286</text>
+<text x="204" y="274" fill="#1C1C1C" font-size="26" font-weight="600">de 335 codificados</text>
+<text x="92" y="311" fill="#6B6459" font-size="20">85.4% de cobertura geral · 49 pendentes</text>
+<text x="92" y="426" fill="#1C1C1C" font-size="25" font-weight="650">fundacional</text>
+<rect x="360" y="390" width="900.0" height="54" rx="8" fill="#E8D4D7"/>
+<rect x="360" y="390" width="822.7" height="54" rx="8" fill="#6B1E2E"/>
+<text x="1290" y="426" fill="#1C1C1C" font-size="25" font-weight="700">91.4%</text>
+<text x="360" y="472" fill="#6B6459" font-size="18">149 codificados</text>
+<text x="550" y="472" fill="#6B6459" font-size="18">14 pendentes</text>
+<text x="92" y="538" fill="#1C1C1C" font-size="25" font-weight="650">normativo</text>
+<rect x="360" y="502" width="568.7" height="54" rx="8" fill="#E8D4D7"/>
+<rect x="360" y="502" width="546.6" height="54" rx="8" fill="#6B1E2E"/>
+<text x="1290" y="538" fill="#1C1C1C" font-size="25" font-weight="700">96.1%</text>
+<text x="360" y="584" fill="#6B6459" font-size="18">99 codificados</text>
+<text x="550" y="584" fill="#6B6459" font-size="18">4 pendentes</text>
+<text x="92" y="650" fill="#1C1C1C" font-size="25" font-weight="650">militar</text>
+<rect x="360" y="614" width="298.2" height="54" rx="8" fill="#E8D4D7"/>
+<rect x="360" y="614" width="154.6" height="54" rx="8" fill="#6B1E2E"/>
+<text x="1290" y="650" fill="#1C1C1C" font-size="25" font-weight="700">51.9%</text>
+<text x="360" y="696" fill="#6B6459" font-size="18">28 codificados</text>
+<text x="550" y="696" fill="#6B6459" font-size="18">26 pendentes</text>
+<text x="92" y="762" fill="#1C1C1C" font-size="25" font-weight="650">contra-alegoria</text>
+<rect x="360" y="726" width="82.8" height="54" rx="8" fill="#E8D4D7"/>
+<rect x="360" y="726" width="55.2" height="54" rx="8" fill="#6B1E2E"/>
+<text x="1290" y="762" fill="#1C1C1C" font-size="25" font-weight="700">66.7%</text>
+<text x="360" y="808" fill="#6B6459" font-size="18">10 codificados</text>
+<text x="550" y="808" fill="#6B6459" font-size="18">5 pendentes</text>
+<line x1="92" y1="826" x2="1348" y2="826" stroke="#D8CCB9"/>
+<text x="92" y="866" fill="#6B6459" font-size="17">Fonte: warholana/iconocracy-corpus · análise agregada por regime</text>
+<rect x="1040" y="852" width="18" height="18" rx="3" fill="#6B1E2E"/>
+<text x="1068" y="867" fill="#6B6459" font-size="17">codificado</text>
+<rect x="1190" y="852" width="18" height="18" rx="3" fill="#E8D4D7"/>
+<text x="1218" y="867" fill="#6B6459" font-size="17">pendente</text>
+</svg>
