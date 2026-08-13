@@ -4,7 +4,7 @@ Projeto de semestre para a disciplina **INE410159 / TRV410001 — Visão Computa
 UFSC, Profs. Aldo von Wangenheim e Antonio Sobieranski.
 
 **Página do projeto:**
-[anavvanzin.github.io/iconocracia-cv](https://anavvanzin.github.io/iconocracia-cv/)
+[iconocracia-cv.pages.dev](https://iconocracia-cv.pages.dev/)
 
 **Autora / especialista de domínio:** Ana Vitória Vanzin Mendes — doutoranda no PPGD/UFSC,
 tese *ICONOCRACIA: Alegoria Feminina na História da Cultura Jurídica (Séculos XIX–XX)*.
