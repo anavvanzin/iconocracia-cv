@@ -25,6 +25,9 @@ do tempo — atacado pelos dois paradigmas da disciplina: visão clássica e apr
 data/     freeze do corpus para o semestre (imutável, reprodutível)
 docs/     pitch de apresentação + protocolo técnico / data card
 analysis/ auditorias e resultados derivados, reproduzíveis
+site/     página pública (sem login)
+convex/   autenticação e dados da equipe
+src/      console autenticado da equipe
 ```
 
 - **Freeze:** `ICONOCRACIA-CV-2026-08-12` — 335 registros, export público do corpus de pesquisa
@@ -35,6 +38,31 @@ analysis/ auditorias e resultados derivados, reproduzíveis
   - [Protocolo técnico e data card](docs/projeto-disciplina-visao-computacional-2026-2.md)
 - **Análises:**
   - [Cobertura de codificação por regime no Hugging Face](analysis/huggingface-regime-coverage-2026-08-13/)
+
+## Autenticação da equipe
+
+A página pública e o freeze do corpus permanecem acessíveis sem login. A pasta
+`convex/` guarda o backend autenticado (Convex Auth, e-mail e senha): mapeia a
+identidade do provedor para a tabela `users`, aplica checagem de autenticação
+nas funções protegidas e restringe notas de experimento à pessoa que as criou.
+A primeira conta criada recebe o papel `admin`.
+
+```bash
+npm install
+npx convex dev
+```
+
+Em outro terminal:
+
+```bash
+cp .env.example .env.local   # cole VITE_CONVEX_URL impresso pelo convex dev
+npm run dev
+```
+
+Variáveis JWT (`JWT_PRIVATE_KEY`, `JWKS`) ficam no deployment Convex, não no
+site público. Gere-as com `npx @convex-dev/auth` ou
+`node scripts/generate-auth-keys.mjs`. Use `npx convex dev` durante o
+desenvolvimento; `npx convex deploy` é só para produção.
 
 ## Roadmap do semestre
 
