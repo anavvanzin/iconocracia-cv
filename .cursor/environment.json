@@ -1,0 +1,4 @@
+{
+  "name": "iconocracia-cv",
+  "install": "python3 analysis/huggingface-regime-coverage-2026-08-13/render_coverage.py\nnpm run build"
+}
