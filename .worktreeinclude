@@ -1,0 +1,4 @@
+# Gitignored paths to copy into new worktrees.
+# Uses .gitignore syntax. Only ignored files matching these patterns are copied;
+# tracked files are never duplicated even if listed here.
+dist/

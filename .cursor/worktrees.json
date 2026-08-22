@@ -1,0 +1,8 @@
+{
+  "setup-worktree-unix": [
+    "if [ -d \"$ROOT_WORKTREE_PATH/dist\" ]; then cp -R \"$ROOT_WORKTREE_PATH/dist\" dist; fi"
+  ],
+  "setup-worktree-windows": [
+    "if exist %ROOT_WORKTREE_PATH%\\dist xcopy /E /I /Y %ROOT_WORKTREE_PATH%\\dist dist"
+  ]
+}
